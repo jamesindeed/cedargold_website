@@ -30,7 +30,7 @@ const HeroContainer = styled.div`
  padding: 0 1rem;
  position: relative;
  margin-top: -80px;
- color: #fff
+ color: #fff;
 `
 
 const HeroBg = styled.div`

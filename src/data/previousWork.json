@@ -1,0 +1,26 @@
+[
+  {
+    "img": "../assets/images/placeholder1.jpg",
+    "alt": "Work 1",
+    "name": "Work 1",
+    "button": "View Work"
+  },
+  {
+    "img": "../assets/images/placeholder2.jpg",
+    "alt": "Work 2",
+    "name": "Work 2",
+    "button": "View Work"
+  },
+  {
+    "img": "../assets/images/placeholder3.jpg",
+    "alt": "Work 3",
+    "name": "Work 3",
+    "button": "View Work"
+  },
+  {
+    "img": "../assets/images/placeholder4.jpg",
+    "alt": "Work 4",
+    "name": "Work 4",
+    "button": "View Work"
+  }
+]
