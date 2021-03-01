@@ -44,6 +44,7 @@ const Nav = styled.nav`
   padding: 0.5rem calc((100vw - 1300px) / 2);
   z-index: 100;
   position: relative;
+  padding-top: 25px;
 `
 
 const NavLink = styled(Link)`

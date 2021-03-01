@@ -73,17 +73,19 @@ const Work = ({ heading }) => {
 export default Work
 
 const WorkContainer = styled.div`
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
   color: #fff;
 `
 
 const WorkHeading = styled.div`
-  font-size: clamp(1.2rem, 5vw, 3rem);
+  font-size: clamp(1.2rem, 5vw, 2.5rem);
   text-align: center;
   margin-bottom: 5rem;
   color: #000;
+  font-weight: bold;
 `
 
 const WorkWrapper = styled.div`
