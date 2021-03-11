@@ -1,11 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
+import {StatsData} from '../data/StatsData'
 
 const Stats = () => {
     return (
         <StatsContainer>
             <Heading>Why Choose Us?</Heading>
-            <Wrapper></Wrapper>
+            <Wrapper>
+                {StatsData.map((item, index) => {
+                    return (
+                        <StatsBox key={index}>
+                            <Icon>{item.icon}</Icon>
+                            <Title>{item.title}</Title>
+                            <Desc>{item.desc}</Desc>
+                        </StatsBox>
+                    )
+                })}
+            </Wrapper>
         </StatsContainer>
     )
 }
@@ -40,3 +51,21 @@ grid-gap: 15px;
     grid-template-columns: 1fr;
 }
 `
+
+const StatsBox = styled.div`
+height: 100%;
+width: 100%;
+padding: 2rem;
+`
+
+const Icon = styled.div`
+font-size: 3rem;
+margin-bottom: 1rem;
+`
+
+const Title = styled.p`
+font-size: clamp(1rem, 2.5rem, 1.5rem);
+margin-bottom: 0.5rem;
+`
+
+const Desc = styled.div``
